@@ -4,12 +4,12 @@
 Database Synchronization Service is a Python-based tool designed to synchronize data between an MSSQL source database and a MySQL target database. This service allows for flexible configuration through a JSON file, supporting custom column mappings, identity column handling, and continuous synchronization.
 
 ## Features
--  Data synchronization between MSSQL and MySQL: Supports syncing tables from an MSSQL source to a MySQL target.
--  Customizable column mappings: Allows you to specify source and target columns for mapping.
--  Identity column customization: Automatically handles identity columns, with the ability to rename them in the target database.
--  Flexible configurations: Configure synchronization rules through a JSON file, including table and column name mapping, and whether to   keep the table and column names as-is.
--  Connection pooling: Implements connection pools for both MSSQL and MySQL to optimize performance.
--  Logging: Provides detailed logging of synchronization activities, errors, and queries.
+-  **Data synchronization between MSSQL and MySQL**: Supports syncing tables from an MSSQL source to a MySQL target.
+-  **Customizable column mappings**: Allows you to specify source and target columns for mapping.
+-  **Identity column customization**: Automatically handles identity columns, with the ability to rename them in the target database.
+-  **Flexible configurations**: Configure synchronization rules through a JSON file, including table and column name mapping, and whether to   keep the table and column names as-is.
+-  **Connection pooling**: Implements connection pools for both MSSQL and MySQL to optimize performance.
+-  **Logging**: Provides detailed logging of synchronization activities, errors, and queries.
 
 
 ## Requirements
