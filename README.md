@@ -24,12 +24,12 @@ To install and set up the **flo-portal-db-sync**, follow the steps below:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/byorna/flo-portal-db-sync.git
+   git clone https://github.com/byorna/wf-dbsync.git
    ```
 
 2. **Navigate into the project directory:**
     ```bash
-    cd flo-portal-db-sync
+    cd wf-dbsync
     ```
 
 3. **Create the environment file:**
@@ -75,7 +75,7 @@ To install and set up the **flo-portal-db-sync**, follow the steps below:
 4. **Build the Docker image:**
 
       ```bash
-      docker build -t portal-db-sync .
+      docker build -t wf-dbsync .
       ```
 
 5. **Run the Application Using Docker:**
@@ -83,13 +83,13 @@ To install and set up the **flo-portal-db-sync**, follow the steps below:
       -   If MySQL database is running on the host machine:
 
       ```bash
-      docker run -d --name portal-db-sync --hostname portal-db-sync --env-file .env --restart always portal-db-sync
+      docker run -d --name wf-dbsync --hostname wf-dbsync --env-file .env --restart always wf-dbsync
       ```
 
       -   If MySQL database is running in a docker:
 
       ```bash
-      docker run -d --name portal-db-sync --hostname portal-db-sync --env-file .env --network backend --restart always portal-db-sync
+      docker run -d --name wf-dbsync --hostname wf-dbsync --env-file .env --network backend --restart always wf-dbsync
       ```
    
 
