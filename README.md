@@ -1,3 +1,5 @@
+[![](./logo.png)](https://www.waitfordata.com)
+
 # Database Synchronization Service
 Database Synchronization Service is a Python-based tool designed to synchronize data between an MSSQL source database and a MySQL target database. This service allows for flexible configuration through a JSON file, supporting custom column mappings, identity column handling, and continuous synchronization.
 
